@@ -1,2 +1,2 @@
 # OpenCV-Basics
-Basics of OpenCV using python
+Basics of Computer Vision using python
