@@ -1,6 +1,6 @@
 # Rescaling an image
 import cv2 as cv
-img = cv.imread('Frozen Rose.jpg')
+img = cv.imread('Frozen Rose.jpg')  #Image path
 cv.imshow("Frozen rose", img)
 
 def rescaleImg(img,scale=0.50):
@@ -16,7 +16,7 @@ cv.waitKey(0)
 
 
 # Rescaling a video
-capture = cv.VideoCapture('ride.mp4')
+capture = cv.VideoCapture('ride.mp4')  #Video path
     
 def rescaleFrame(frame, scale=0.75):
     width = int(frame.shape[1] * scale)
